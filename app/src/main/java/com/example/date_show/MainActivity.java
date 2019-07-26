@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity{
         tv1_3.setText("三" + stringArr[2]);
         tv1_4.setText("四:" + stringArr[3]);
         tv1_5.setText(" 五:" + stringArr[4]);
-
+        //Log.d("MainActivity" , stringArr[3]);
 
         tv2_1.setText( "一:" + stringArr[5]);
         tv2_2.setText("二:" + stringArr[6]);
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity{
         tv3_3.setText("三" + stringArr[12]);
         tv3_4.setText("四:" + stringArr[13]);
         tv3_5.setText(" 五:" + stringArr[14]);
-
+        //Log.d("MainActivity" , stringArr[13]);
         tv4_1.setText( "一:" + stringArr[15]);
         tv4_2.setText("二:" + stringArr[16]);
         tv4_3.setText("三" + stringArr[17]);
