@@ -45,6 +45,25 @@ public class MainActivity extends AppCompatActivity{
         tv1_4 = (TextView)findViewById(R.id.tv_1_4);
         tv1_5 = (TextView)findViewById(R.id.tv_1_5);
 
+        tv2_1 = (TextView)findViewById(R.id.tv_2_1);
+        tv2_2 = (TextView)findViewById(R.id.tv_2_2);
+        tv2_3 = (TextView)findViewById(R.id.tv_2_3);
+        tv2_4 = (TextView)findViewById(R.id.tv_2_4);
+        tv2_5 = (TextView)findViewById(R.id.tv_2_5);
+
+        tv3_1 = (TextView)findViewById(R.id.tv_3_1);
+        tv3_2 = (TextView)findViewById(R.id.tv_3_2);
+        tv3_3 = (TextView)findViewById(R.id.tv_3_3);
+        tv3_4 = (TextView)findViewById(R.id.tv_3_4);
+        tv3_5 = (TextView)findViewById(R.id.tv_3_5);
+
+        tv4_1 = (TextView)findViewById(R.id.tv_4_1);
+        tv4_2 = (TextView)findViewById(R.id.tv_4_2);
+        tv4_3 = (TextView)findViewById(R.id.tv_4_3);
+        tv4_4 = (TextView)findViewById(R.id.tv_4_4);
+        tv4_5 = (TextView)findViewById(R.id.tv_4_5);
+
+
         Log.d("MainActivity" , "准备handler");
         handler = new Handler()
         {
@@ -79,11 +98,23 @@ public class MainActivity extends AppCompatActivity{
         tv1_5.setText(" 五:" + stringArr[4]);
 
 
-        tv2_1.setText( "一:" + stringArr[0]);
-        tv2_2.setText("二:" + stringArr[1]);
-        tv1_3.setText("三" + stringArr[2]);
-        tv1_4.setText("四:" + stringArr[3]);
-        tv1_5.setText(" 五:" + stringArr[4]);
+        tv2_1.setText( "一:" + stringArr[5]);
+        tv2_2.setText("二:" + stringArr[6]);
+        tv2_3.setText("三" + stringArr[7]);
+        tv2_4.setText("四:" + stringArr[8]);
+        tv2_5.setText(" 五:" + stringArr[9]);
+
+        tv3_1.setText( "一:" + stringArr[10]);
+        tv3_2.setText("二:" + stringArr[11]);
+        tv3_3.setText("三" + stringArr[12]);
+        tv3_4.setText("四:" + stringArr[13]);
+        tv3_5.setText(" 五:" + stringArr[14]);
+
+        tv4_1.setText( "一:" + stringArr[15]);
+        tv4_2.setText("二:" + stringArr[16]);
+        tv4_3.setText("三" + stringArr[17]);
+        tv4_4.setText("四:" + stringArr[18]);
+        tv4_5.setText(" 五:" + stringArr[19]);
 
     }
 
