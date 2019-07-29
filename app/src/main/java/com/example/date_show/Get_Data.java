@@ -58,7 +58,7 @@ public class Get_Data implements Runnable
                             ds.send(outPacket);
                             try
                             {
-                                ds.setSoTimeout(1000);
+                                ds.setSoTimeout(500);
                                 ds.receive(inPacket);
                             }
                             catch(Exception e)

@@ -91,30 +91,30 @@ public class MainActivity extends AppCompatActivity{
     {
         String [] stringArr= Alls.split(",");
 
-        tv1_1.setText( "一:" + stringArr[0]);
-        tv1_2.setText("二:" + stringArr[1]);
-        tv1_3.setText("三" + stringArr[2]);
-        tv1_4.setText("四:" + stringArr[3]);
-        tv1_5.setText(" 五:" + stringArr[4]);
+        tv1_1.setText( "溶氧量（mg/L):" + stringArr[0].substring(0,4));
+        tv1_2.setText("化学需氧量（mg/L):" + stringArr[1].substring(0,4));
+        tv1_3.setText("酸碱度（pH）" + stringArr[2].substring(0,3));
+        tv1_4.setText("四氨氮（mg/L）:" + stringArr[3].substring(0,3));
+        tv1_5.setText("电机状态:" + stringArr[4].substring(0,1));
         //Log.d("MainActivity" , stringArr[3]);
 
-        tv2_1.setText( "一:" + stringArr[5]);
-        tv2_2.setText("二:" + stringArr[6]);
-        tv2_3.setText("三" + stringArr[7]);
-        tv2_4.setText("四:" + stringArr[8]);
-        tv2_5.setText(" 五:" + stringArr[9]);
+        tv2_1.setText( "溶氧量（mg/L):" + stringArr[5].substring(0,4));
+        tv2_2.setText("化学需氧量（mg/L）:" + stringArr[6].substring(0,4));
+        tv2_3.setText("酸碱度（pH）" + stringArr[7].substring(0,3));
+        tv2_4.setText("氨氮（mg/L）:" + stringArr[8].substring(0,3));
+        tv2_5.setText("电机状态:" + stringArr[9].substring(0,1));
 
-        tv3_1.setText( "一:" + stringArr[10]);
-        tv3_2.setText("二:" + stringArr[11]);
-        tv3_3.setText("三" + stringArr[12]);
-        tv3_4.setText("四:" + stringArr[13]);
-        tv3_5.setText(" 五:" + stringArr[14]);
+        tv3_1.setText( "溶氧量（mg/L):" + stringArr[10].substring(0,4));
+        tv3_2.setText("化学需氧量（mg/L）:" + stringArr[11].substring(0,4));
+        tv3_3.setText("酸碱度（pH）" + stringArr[12].substring(0,3));
+        tv3_4.setText("氨氮（mg/L）:" + stringArr[13].substring(0,3));
+        tv3_5.setText(" 电机状态:" + stringArr[14].substring(0,1));
         //Log.d("MainActivity" , stringArr[13]);
-        tv4_1.setText( "一:" + stringArr[15]);
-        tv4_2.setText("二:" + stringArr[16]);
-        tv4_3.setText("三" + stringArr[17]);
-        tv4_4.setText("四:" + stringArr[18]);
-        tv4_5.setText(" 五:" + stringArr[19]);
+        tv4_1.setText( "溶氧量（mg/L):" + stringArr[15].substring(0,4));
+        tv4_2.setText("化学需氧量（mg/L）:" + stringArr[16].substring(0,4));
+        tv4_3.setText("酸碱度（pH）" + stringArr[17].substring(0,3));
+        tv4_4.setText("氨氮（mg/L）:" + stringArr[18].substring(0,3));
+        tv4_5.setText(" 电机状态:" + stringArr[19].substring(0,1));
 
     }
 
